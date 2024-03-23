@@ -1,0 +1,21 @@
+{
+  "name": "kulhara",
+  "version": "1.0.0",
+  "description": "Kulhara is a user-friendly web application that empowers Pakistani shoppers to find the best deals. Users can search for products, compare prices from different online retailers, and make informed purchasing decisions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Yasir Mehmood",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.1",
+    "mongoose": "^8.2.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "nodemon": "^3.1.0"
+  }
+}
